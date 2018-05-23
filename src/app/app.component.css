@@ -1,0 +1,8 @@
+*{
+  border: 1px solid black;
+}
+.nav-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
