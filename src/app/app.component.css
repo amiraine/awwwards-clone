@@ -17,13 +17,19 @@ svg{
 }
 
 .bottomnav{
+  border-bottom: 1px solid #E6EAEA;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  border: 1px solid black;
 }
 .bottomnav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #E6EAEA;
+  height: 100%;
+  padding: 0 20px;
   width: 10%;
 }
 .bottomnav .bottomnav-right {
@@ -37,9 +43,38 @@ svg{
   height: 23px;
   width: 141px;
 }
+.search svg{
+  padding: 0 20px;
+}
 
 .bottomnav-right .register {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 12px;
+}
+
+.bottomnav-right .login {
+  padding-right: 20px;
+}
+
+.submit button{
+  background-color: #49c5b6;
+  border: none;
+  color: white;
+  padding: 0px 35px;
+  text-align: center;
+  display: inline-block;
+  width: 190px;
+  height: 70px;
+}
+.hero{
+  background: linear-gradient(
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+    ), url(http://ultimaterpmod.us/wp-content/uploads/2017/08/office-design-wall-color-office-design-wall-color-office-design-splendid-office-wall-colors-psychology-office-1920-x-1200.jpg);
+  height: 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
