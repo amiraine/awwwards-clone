@@ -1,7 +1,44 @@
-*{
+svg{
+  width: 15px;
+  height: 15px;
+}
+.topnav{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  border-bottom: 1px solid #E6EAEA;
+
+}
+.topnav .language{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.bottomnav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
   border: 1px solid black;
 }
-.nav-search {
+.bottomnav .menu {
+  width: 10%;
+}
+.bottomnav .bottomnav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.awwwards svg {
+  height: 23px;
+  width: 141px;
+}
+
+.bottomnav-right .register {
   display: flex;
   justify-content: space-between;
   align-items: center;
