@@ -1,27 +1,35 @@
-# Awwwardsclone
+# Awwwards Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+#### A clone of the Awwwards splash page using advanced CSS grids - 5/24/2018
 
-## Development server
+#### By **Ami Cooper and Brenda Franco**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+A local rebuild of Awwwards (https://awwwards.com/) built in Angular 2 to display the use of advanced grids and flexboxes.
 
-## Code scaffolding
+## Reach goals for this project (these bullet points will be moved up into the Description section as/if they are completed)
+  * add CSS or JavaScript hover animations to site.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup/Installation Requirements (for users)
+1. Clone from GitHub repository [https://github.com/amiraine/awwwards-clone.git]
+2. Run `install -g @angular/cli@1.6.5`
+3. Run `brew upgrade node`
+4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build
+## Known Bugs
+* none
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Technologies Used
+  * Angular 2.
+  * CSS3
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and contact details
 
-## Running end-to-end tests
+_Email the authors with any questions, comments, or concerns._
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### License
 
-## Further help
+*{This software is licensed under the MIT license}*
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2018 **_{Ami Cooper and Brenda Franco}_**
