@@ -252,17 +252,14 @@ button svg{
   font-weight: 700;
 }
 .daily-sites{
-  /* grid-area: 1 / 1 / 2 / 3; */
   align-self: center;
 }
 .mobile-excellence{
-  /* grid-area: 1 / 4 / 2 / 5; */
   align-self: center;
 }
 
 .grid-wrapper{
   display: grid;
-  /* grid-template-columns: repeat(4, 370px); */
   grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
   grid-template-rows: 412px;
   grid-auto-rows: 412px;
@@ -270,11 +267,18 @@ button svg{
   font-size: 18px;
   grid-auto-flow: row;
 }
-.grid-wrapper .module {
-  border: 2px solid black;
-}
+
 .module{
   overflow: hidden;
+  font-style: 14px!important;
+}
+.info-wrapper{
+  padding:15px;
+}
+.module .info-bottom{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
 }
 .module img{
   display: block;
