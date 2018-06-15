@@ -13,7 +13,7 @@ A local rebuild of Awwwards (https://awwwards.com/) built in Angular 2 to displa
 ## Setup/Installation Requirements (for users)
 1. Clone from GitHub repository [https://github.com/amiraine/awwwards-clone.git]
 2. Run `install -g @angular/cli@1.6.5`
-3. Run `brew upgrade node`
+3. Run `npm install` inside of the project root directory.
 4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Known Bugs
